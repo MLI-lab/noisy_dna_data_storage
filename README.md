@@ -42,7 +42,8 @@ In the "data" folder there are 2 files plus a link to another file:
 
 File_1.zip: if you choose to run the code for a simulated dataset, this file will be loaded.
 
-File1_ODNA.txt and the link to the noisy reads: if you choose to run the code for the synthesized data, these 2 files will be loaded. <br>
+File1_ODNA.txt and the link to the noisy reads: if you choose to run the code for the synthesized data, these 2 files will be loaded.
+
 Note that you need to download all 3 files and put them in the "data" folder in your main directory.
 Based on the runtimes measured on a 6-core server, you may decide which options you would pick.
 
@@ -51,7 +52,7 @@ Based on the runtimes measured on a 6-core server, you may decide which options 
 |-------------|------------|------------|
 | Cat         | Soccer     | Apple      |
 | Dog         | Basketball | Orange     |
-/***
+*/
 
 
 ==============
