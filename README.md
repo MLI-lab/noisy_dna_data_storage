@@ -54,6 +54,11 @@ Based on the runtimes measured on a 6-core server, you may decide which options 
 | zebra stripes | are neat      |    $1 |
 
 
+| f\|oo  |
+| ------ |
+| b `\|` az |
+| b **\|** im |
+
 ==============
 
 # Run and reproduce the results
