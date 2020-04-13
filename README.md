@@ -47,28 +47,11 @@ File1_ODNA.txt and the link to the noisy reads: if you choose to run the code fo
 Note that you need to download all 3 files and put them in the "data" folder in your main directory.
 Based on the runtimes measured on a 6-core server, you may decide which options you would pick.
 
-| :-- Tables <br /> hey| Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-<table>
-<thead>
-<tr>
-<th>f|oo</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>b <code>|</code> az</td>
-</tr>
-<tr>
-<td>b <strong>|</strong> im</td>
-</tr>
-</tbody>
-</table>
+| clustering method (-->) <br /> data | Are           | Cool  |
+| ------------------------------------|:-------------:| -----:|
+| col 3 is      		      | right-aligned | $1600 |
+| col 2 is      		      | centered      |   $12 |
+| zebra stripes 		      | are neat      |    $1 |
 
 ==============
 
