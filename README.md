@@ -30,17 +30,29 @@ compile the encoder/decoder by running the following commands:
 
 # Main flags in the code
 There are two main flags in the code: 
+
 SIMULATE: if you set this flag to "True," the code runs for a simulated dataset, otherwise it runs for a real synthesized dataset.
+
 TRIVIAL: if you set this flag to "True," clustering will be done based on the first "nbeg" characters of the noisy reads, otherwise, Locality-Sesitive-Hashing (LSH) techinque will be employed for clustering.
 
 ==============
 
 # Data 
 In the "data" folder there are 2 files plus a link to another file:
+
 File_1.zip: if you choose to run the code for a simulated dataset, this file will be loaded.
+
 File1_ODNA.txt and the link to the noisy reads: if you choose to run the code for the synthesized data, these 2 files will be loaded. 
+
 Note that you need to download all 3 files and put them in the "data" folder in your main directory.
 Based on the runtimes measured on a 6-core server, you may decide which options you would pick.
+
+/***
+| __Animals__ | __Sports__ | __Fruits__ |
+|-------------|------------|------------|
+| Cat         | Soccer     | Apple      |
+| Dog         | Basketball | Orange     |
+***/
 
 ==============
 
