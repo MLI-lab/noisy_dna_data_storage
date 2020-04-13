@@ -1,5 +1,5 @@
 # Intro
-<p align= "justify"> The aim of this project is to recover the data stored on DNA sequences from millions of noisy reads. In this regard, we first encoded a sample zip file, then induce errors and erasures to the encoded DNA sequences, then cluster the reads using Locality-Sensitive Hashing method, then by performing Multiple Sequence Alignment and Majority Voting on each cluster we generate a number of candidates and by putting them into a decoder we receover the original file. A step-by-step approach for an example is provided below. </p>
+<p align= "justify"> The aim of this project is to recover the data stored on DNA sequences from millions of noisy reads. The overall procedure comprises of clustering the noisy reads and by performing Multiple Sequence Alignment. Finally, by doing Majority Voting on each cluster, we generate a number of candidates and by putting them into a decoder, we receover the original file. Details about "setup and installation," "main flags in the code," and "the data" is provided below. </p>
 
 ==============
 
@@ -47,7 +47,7 @@ File1_ODNA.txt and the link to the noisy reads: if you choose to run the code fo
 Note that you need to download all 3 files and put them in the "data" folder in your main directory.
 Based on the runtimes measured on a 6-core server, you may decide which options you would pick.
 
-| Tables        | Are           | Cool  |
+| Tables \ hey| Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
