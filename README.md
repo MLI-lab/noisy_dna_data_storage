@@ -47,7 +47,7 @@ File1_ODNA.txt and the link to the noisy reads: if you choose to run the code fo
 Note that you need to download all 3 files and put them in the "data" folder in your main directory.
 Based on the runtimes measured on a 6-core server, you may decide which options you would pick.
 
-| Tables '\' hey| Are           | Cool  |
+| Tables <br /> hey| Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
