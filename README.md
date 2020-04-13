@@ -51,6 +51,7 @@ Based on the runtimes measured on a 6-core server, you may decide which options 
 | :--------------------------------------------------:|:---------------------:|:------------------:|
 | Simulated      		      		      | 6 <sup>mins</sup>     | 18 <sup>mins</sup> |
 | Synthesized      		      		      | 40 <sup>hrs</sup>     | 120 <sup>hrs</sup> |
+
 [^1]: LSH recovers more original sequences compared to Trivial, but since both are able to recover enough (with respect to the redundancy in the Reed-Solomon codes) original sequences, both perfectly recover the original file stored on DNA. Hence, Trivial clustering might be a better choice in terms of the performance efficiency.
 
 ==============
