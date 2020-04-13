@@ -47,12 +47,12 @@ File1_ODNA.txt and the link to the noisy reads: if you choose to run the code fo
 Note that you need to download all 3 files and put them in the "data" folder in your main directory.
 Based on the runtimes measured on a 6-core server, you may decide which options you are willing to pick.
 
-| clustering method (&#8594;) <br /> data (&#8595;)   | Trivial       	      | LSH[^1]		   |
+| clustering method (&#8594;) <br /> data (&#8595;)   | Trivial       	      | LSH<sup>1</sup>	   |
 | :--------------------------------------------------:|:---------------------:|:------------------:|
 | Simulated      		      		      | 6 <sup>mins</sup>     | 18 <sup>mins</sup> |
 | Synthesized      		      		      | 40 <sup>hrs</sup>     | 120 <sup>hrs</sup> |
 
-[^1]: LSH recovers more original sequences compared to Trivial, but since both are able to recover enough (with respect to the redundancy in the Reed-Solomon codes) original sequences, both perfectly recover the original file stored on DNA. Hence, Trivial clustering might be a better choice in terms of the performance efficiency.
+<sup>1</sup>: LSH recovers more original sequences compared to Trivial, but since both are able to recover enough (with respect to the redundancy in the Reed-Solomon codes) original sequences, both perfectly recover the original file stored on DNA. Hence, Trivial clustering might be a better choice in terms of the performance efficiency.
 
 ==============
 
