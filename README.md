@@ -4,7 +4,7 @@
 This repository provides code for reproducing the results in the paper:
 
 **``Low Cost DNA data storage using Photolithographic Synthesis and Advanced Information Reconstruction and Error Correction''**, by
-Philipp L. Antkowiak1, Jory Lietard, Mohammad Darestani, Mark Somoza, Wendelin J. Stark, Reinhard Heckel^*, Robert N. Grass1^*
+Philipp L. Antkowiak, Jory Lietard, Mohammad Darestani, Mark Somoza, Wendelin J. Stark, Reinhard Heckel, Robert N. Grass
 
 Code by: Mohammad Zalbagi Darestani and Reinhard Heckel (rh43@rice.edu)
 
@@ -27,7 +27,7 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run t
 
 The encoding/decoding we use is with our Reed-Solomon encoder/decoder, that can be downloaded from the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding). Clone the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding) and move the LSH_clustering.ipynb jupyter notebook in this repository into the main directory dna_rs_coding folder.  
 
-compile the encoder/decoder by running the following commands:
+Compile the encoder/decoder by running the following commands:
 
 	cd simulate
  	make texttodna
@@ -36,7 +36,7 @@ For multiple sequence alignment, we used MUSCLE command line. Please download th
 
 # Data dependencies
 
-In the "data" folder there are 2 files plus a link to another file:
+The "data" folder contains two files and a link to a third file containing the sequencing data:
 
 File_1.zip: if you choose to run the code for a simulated dataset, this file will be loaded.
 
