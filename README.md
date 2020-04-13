@@ -54,10 +54,21 @@ Based on the runtimes measured on a 6-core server, you may decide which options 
 | zebra stripes | are neat      |    $1 |
 
 
-| f\|oo  |
-| ------ |
-| b `\|` az |
-| b **\|** im |
+<table>
+<thead>
+<tr>
+<th>f|oo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>b <code>|</code> az</td>
+</tr>
+<tr>
+<td>b <strong>|</strong> im</td>
+</tr>
+</tbody>
+</table>
 
 ==============
 
