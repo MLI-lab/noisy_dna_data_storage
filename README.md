@@ -81,4 +81,7 @@ SIMULATE (Demo): if you set this flag to "True," the code runs for a simulated d
 
 TRIVIAL: if you set this flag to "True," clustering will be done based on the first "nbeg" characters of the noisy reads, otherwise, Locality-Sesitive-Hashing (LSH) techinque will be employed for clustering.
 
+# License
+
+This project is covered by **MIT 2.0. License**
 
