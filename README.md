@@ -19,6 +19,7 @@ The aim of the code is to recover the data stored on DNA sequences from millions
 
 ### OS requirements
 The code has been tested on the following operating systems:
+
 	Linux: Ubuntu 16.04.5
 
 ### Python dependencies
@@ -30,6 +31,7 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run t
         apt-get install git
         apt-get install libboost-all-dev
 	apt-get install python3.6
+	
 		pip install numpy
 		pip install biopython
 		pip install sklearn
