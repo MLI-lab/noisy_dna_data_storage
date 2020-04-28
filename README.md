@@ -16,6 +16,11 @@ The aim of the code is to recover the data stored on DNA sequences from millions
 
 # Setup and Installation
 
+### OS requirements
+The code has been tested on the following operating systems:
+	Linux: Ubuntu 16.04.5
+
+### Python dependencies
 To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run this notebook, the following software is required. Assuming the experiment is being performed in a docker container or a linux machine, the following libraries and packages need to be installed.
 
         apt-get update
@@ -28,6 +33,7 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run t
 		apt-get install python-biopython
 		apt-get install python-sklearn
 
+### Encoder-decoder installation
 The encoding/decoding we use is with our Reed-Solomon encoder/decoder, that can be downloaded from the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding). Clone the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding) and move the LSH_clustering.ipynb jupyter notebook in this repository into the main directory dna_rs_coding folder.  
 
 Compile the encoder/decoder by running the following commands:
@@ -35,6 +41,7 @@ Compile the encoder/decoder by running the following commands:
 	cd simulate
  	make texttodna
 
+### Multiple-sequence-alignment software installation
 For multiple sequence alignment, we used MUSCLE command line. Please download the proper version of the software from http://www.drive5.com/muscle/downloads.htm and put it in the main directory (the 64-bit Linux version is already included in the "include" folder of this repository). LSH_clustering.ipynb is written for linux, so if you are using another operating system, after downloading the proper version of MUSCLE software and putting it in the main directory, you need to change "muscle_exe" in the "multiple_alignment_muscle" function to the name of the file you dowloaded. 
 
 # Data dependencies
