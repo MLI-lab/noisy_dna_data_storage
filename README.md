@@ -84,5 +84,5 @@ TRIVIAL: if you set this flag to "True," clustering will be done based on the fi
 
 # License
 
-This project is covered by **MIT 2.0. License**
+This project is covered by **MIT License**
 
