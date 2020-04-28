@@ -10,6 +10,7 @@ Code by: Mohammad Zalbagi Darestani and Reinhard Heckel (rh43@rice.edu)
 
 The aim of the code is to recover the data stored on DNA sequences from millions of noisy reads. The overall procedure comprises of i) clustering the noisy reads, ii) performing multiple sequence alignment, and iii) majority voting. By performing weighted majority voting on each cluster, we generate a number of candidates and by putting them into a decoder, we receover the original file. Details about "setup and installation," "main flags in the code," and "the data" is provided below.
 
+### List of contents
 [Setup and Installation](#Setup-and-Installation) <br>
 [Data dependencies](#Data-dependencies) <br>
 [Running the code and reproducing the results](#Running-the-code-and-reproducing-the-results)
@@ -28,10 +29,14 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run t
         apt-get install make
         apt-get install git
         apt-get install libboost-all-dev
-		apt-get install python3.6
-		apt-get install python-numpy
-		apt-get install python-biopython
-		apt-get install python-sklearn
+	apt-get install python3.6
+		pip install numpy
+		pip install biopython
+		pip install sklearn
+		pip install scikit-bio
+		pip install hashlib
+		
+If pip does not come with version of python you nstalled, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
 
 ### Encoder-decoder installation
 The encoding/decoding we use is with our Reed-Solomon encoder/decoder, that can be downloaded from the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding). Clone the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding) and move the LSH_clustering.ipynb jupyter notebook in this repository into the main directory dna_rs_coding folder.  
