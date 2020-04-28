@@ -30,8 +30,8 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run t
         apt-get install make
         apt-get install git
         apt-get install libboost-all-dev
-	apt-get install python3.6
-	
+   apt-get install python3.6
+
 		pip install numpy
 		pip install biopython
 		pip install sklearn
