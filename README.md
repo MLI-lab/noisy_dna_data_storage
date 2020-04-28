@@ -10,7 +10,7 @@ Code by: Mohammad Zalbagi Darestani and Reinhard Heckel (rh43@rice.edu)
 
 The aim of the code is to recover the data stored on DNA sequences from millions of noisy reads. The overall procedure comprises of i) clustering the noisy reads, ii) performing multiple sequence alignment, and iii) majority voting. By performing weighted majority voting on each cluster, we generate a number of candidates and by putting them into a decoder, we receover the original file. Details about "setup and installation," "main flags in the code," and "the data" is provided below.
 
-
+[Setup and Installation](#Setup-and-Installation)
 # Setup and Installation
 
 To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run this notebook, the following software is required. Assuming the experiment is being performed in a docker container or a linux machine, the following libraries and packages need to be installed.
