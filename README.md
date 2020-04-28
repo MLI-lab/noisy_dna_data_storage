@@ -78,11 +78,11 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb, for exam
 
 All dependencies like the encoder/decoder are called from this notebook. The notebook has two options/flags:
 
-SIMULATE (Demo): if you set this flag to "True," the code runs for a simulated dataset, otherwise it runs for a real synthesized dataset.
+SIMULATE (**Demo**): if you set this flag to "True," the code runs for a simulated dataset, otherwise it runs for a real synthesized dataset.
 
 TRIVIAL: if you set this flag to "True," clustering will be done based on the first "nbeg" characters of the noisy reads, otherwise, Locality-Sesitive-Hashing (LSH) techinque will be employed for clustering.
 
 # License
 
-This project is covered by **MIT License**
+This project is covered by **Apache 2.0 License**.
 
