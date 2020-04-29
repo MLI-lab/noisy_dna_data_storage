@@ -6,7 +6,7 @@ This repository provides code for reproducing the results in the paper:
 **``Low Cost DNA data storage using Photolithographic Synthesis and Advanced Information Reconstruction and Error Correction''**, by
 Philipp L. Antkowiak, Jory Lietard, Mohammad Darestani, Mark Somoza, Wendelin J. Stark, Reinhard Heckel, Robert N. Grass
 
-Code by: Mohammad Zalbagi Darestani and Reinhard Heckel (rh43@rice.edu)
+Code by: Mohammad Zalbagi Darestani (mz35@rice.edu) and Reinhard Heckel (rh43@rice.edu)
 
 The aim of the code is to recover the data stored on DNA sequences from millions of noisy reads. The overall procedure comprises of i) clustering the noisy reads, ii) performing multiple sequence alignment, and iii) majority voting. By performing weighted majority voting on each cluster, we generate a number of candidates and by putting them into a decoder, we receover the original file. Details about "setup and installation," "main flags in the code," and "the data" is provided below.
 
