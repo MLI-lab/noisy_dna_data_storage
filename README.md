@@ -19,7 +19,7 @@ The aim of the code is to recover the data stored on DNA sequences from millions
 # Setup and Installation
 
 ### OS requirements
-The code has been tested on the following operating systems:
+The code has been tested on the following operating system:
 
 	Linux: Ubuntu 16.04.5
 
