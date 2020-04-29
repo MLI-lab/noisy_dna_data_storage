@@ -24,7 +24,7 @@ The code has been tested on the following operating system:
 	Linux: Ubuntu 16.04.5
 
 ### Python dependencies
-To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run this notebook, the following software is required. Assuming the experiment is being performed in a docker container or a linux machine, the following libraries and packages need to be installed.
+To reproduce the results, run the jupyter notebook LSH_clustering.ipynb. To run this notebook, the following softwares are required. Assuming the experiment is being performed in a docker container or a linux machine, the following libraries and packages need to be installed.
 
         apt-get update
         apt-get install gcc
@@ -38,10 +38,10 @@ To reproduce the result, run the jupyter notebook LSH_clustering.ipynb. To run t
 		pip install scikit-bio
 		pip install hashlib
 		
-If pip does not come with version of python you nstalled, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
+If pip does not come with version of python you installed, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
 
 ### Encoder-decoder installation
-The encoding/decoding we use is with our Reed-Solomon encoder/decoder, that can be downloaded from the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding). Clone the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding) and move the LSH_clustering.ipynb jupyter notebook in this repository into the main directory dna_rs_coding folder.  
+The encoding/decoding we use is with our Reed-Solomon encoder/decoder, that can be downloaded from the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding). Clone the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding) and move the LSH_clustering.ipynb jupyter notebook (and other contents of this repository (noisy dna data storage)) in this repository into the main directory dna_rs_coding folder.  
 
 Compile the encoder/decoder by running the following commands:
 
