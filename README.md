@@ -37,7 +37,6 @@ To reproduce the results, run the jupyter notebook LSH_clustering.ipynb. To run 
 		pip install biopython
 		pip install sklearn
 		pip install scikit-bio
-		pip install hashlib
 		
 If pip does not come with version of python you installed, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
 
