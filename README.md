@@ -17,6 +17,7 @@ The aim of the code is to recover the data stored on DNA sequences from millions
 [License](#License)
 
 # Setup and Installation
+It takes less than 10 minutes to setup and install everything, provided that you specifically follow the instructions step by step.
 
 ### OS requirements
 The code has been tested on the following operating system:
