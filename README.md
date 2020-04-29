@@ -38,7 +38,7 @@ To reproduce the results, run the jupyter notebook LSH_clustering.ipynb. To run 
 		pip install sklearn
 		pip install scikit-bio
 		
-If pip does not come with version of python you installed, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
+If pip does not come with the version of python you installed, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
 
 ### Encoder-decoder installation
 The encoding/decoding we use is with our Reed-Solomon encoder/decoder, that can be downloaded from the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding). Clone the repository [dna_rs_coding](https://github.com/reinhardh/dna_rs_coding) and move the LSH_clustering.ipynb jupyter notebook (and other contents of this repository (noisy dna data storage)) into the **main directory dna_rs_coding folder** (remember to simply merge the 2 "include" folders).
