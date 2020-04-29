@@ -50,7 +50,7 @@ Compile the encoder/decoder by running the following commands:
 **Important note:** remember to remove the current version of "texttodna" from the "simulate" folder of your main directory and compile a new one using the above command.
 
 ### Multiple-sequence-alignment software installation
-For multiple sequence alignment, we used MUSCLE command line. Please download the proper version of the software from http://www.drive5.com/muscle/downloads.htm and put it in your **home** directory (since the code calls this software from you **~/** directory) (the 64-bit Linux version is already included in the "include" folder of this repository). LSH_clustering.ipynb is written for linux, so if you are using another operating system, after downloading the proper version of MUSCLE software and putting it in the main directory, you need to change "muscle_exe" in the "multiple_alignment_muscle" function to the name of the file you dowloaded. 
+For multiple sequence alignment, we used MUSCLE command line. Please download the proper version of the software from http://www.drive5.com/muscle/downloads.htm and put it in your **home** directory (since the code calls this software from you **~/** directory) (the 64-bit Linux version is already included in the "include" folder of this repository). LSH_clustering.ipynb is written for linux, so if you are using another operating system, after downloading the proper version of MUSCLE software and putting it in the **home** directory, you need to change "muscle_exe" in the "multiple_alignment_muscle" function to the name of the file you dowloaded. 
 
 # Data dependencies
 
