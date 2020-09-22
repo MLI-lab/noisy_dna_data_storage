@@ -1,5 +1,5 @@
 # Noisy DNA data storage
-
+[![DOI](https://zenodo.org/badge/255280136.svg)](https://zenodo.org/badge/latestdoi/255280136)
 
 This repository provides code for reproducing the results in the paper:
 
